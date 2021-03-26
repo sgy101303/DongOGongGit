@@ -1,0 +1,188 @@
+.user-component {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-component,
+.user-component__column:first-child {
+    align-items: center;
+    display: flex;
+ }
+
+.user-component__column__chat {
+    align-items: center;
+    display: inline;
+    height: 25px;
+}
+
+.user-component__column__chat__img {
+    align-items: center;
+    display: inline;
+    height: 50px;
+    width: 20%;
+}
+.user-component__column__chat__noImg {
+    align-items: center;
+    display: inline;
+    height: 25px;
+    /*margin-left: 20%;*/
+}
+.user-component__column__chat__noImg {
+    font-size: 8px;
+}
+
+.user-component-chatroom {
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.user-component__avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.user-component__title {
+    font-weight: 600;
+    font-size: 21px;
+    display: initial;
+    vertical-align: top;
+}
+.component__column__chat__noImg .user-component__title{
+    font-weight: 600;
+    font-size: 21px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.component__column__chat__noImg .user-component__time{
+    font-weight: 600;
+    font-size: 21px;
+    display: inline;
+    vertical-align: top;
+    float: left;
+}
+
+.user-component__subtitle {
+    margin-top: 8px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.user-component__subtitle__chats {
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 60px;
+    vertical-align: top;
+    margin-top: -20px;
+}
+.user-component__avatar--xl {
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+}
+
+.user-component__avatar--channel {
+    width: 60px;
+    height: 60px;
+    border-radius: 21px;
+}
+
+.user-component__avatar--sm {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.user-component__avatar--sm__chats {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 5px;
+    display: inline;
+}
+
+.user-component__title--not-bold {
+    font-weight: 400;
+}
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.4);
+    display: inline;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.4);
+    display: inline;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-component__time {
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    vertical-align: top;
+    float: right;
+    display: initial;
+    vertical-align: top;
+}
+
+
+/*more 페이지에서 이상하게 레이아웃 된 부분을 위한*/
+.more-user-component {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.more-user-component__title {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+
+.more-user-component,
+.more-user-component__column:first-child {
+    display: inline;
+    align-items: center;
+}
+
+.more-user-component__avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.more-user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
+}
+
+.more-user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.more-user-component__title--not-bold {
+    font-weight: 400;
+}
+
+.more-user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.more-user-component__column.message--in--more {
+    margin-top: -45px;
+    margin-bottom: 50px;
+}
